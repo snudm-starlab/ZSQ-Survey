@@ -1,11 +1,12 @@
 # ZSQ Survey
 
 This repository contains a comprehensive paper list of **Zero-shot Quantization** (ZSQ).
-If you find this content helpful, please consider to star [this repository](https://github.com/snudm-starlab/ZSQ-Survey) and cite our [survey paper]().
+Zero-shot Quantization aims to perform network quantization without relying on any real data. 
+If you find this content helpful, please consider to star [this repository](https://github.com/snudm-starlab/ZSQ-Survey) and cite our [survey paper](https://arxiv.org/abs/2505.09188).
 
 **[Update: May, 2025]** [The repository](https://github.com/snudm-starlab/ZSQ-Survey) has been released to the public!
 
-**[Update: Apr., 2025]** Our [survey paper]() on zero-shot quantization has been accepted to [IJCAI 2025](https://2025.ijcai.org/) Survey Track!
+**[Update: Apr., 2025]** Our [survey paper](https://arxiv.org/abs/2505.09188) on zero-shot quantization has been accepted to [IJCAI 2025](https://2025.ijcai.org/) Survey Track!
 
 ### Reference
 ```bibtex
@@ -36,7 +37,6 @@ If you find this content helpful, please consider to star [this repository](http
 - **Training Requirement**: **`PTQ`**: Post-training Quantization / **`QAT`**: Quantization-aware Training
 - **Scope of Contribution**: **`Syn`**: Data Synthesis / **`Quant`**: Network Quantization / **`S+Q`** Both
 - **Target Architecture**: **`CNN`**: Convolutional Neural Networks / **`ViT`**: Vision Transformers / **`C+V`** Both
-
 
 ### Synthesis-free ZSQ
 - **[ICCV 2023]** Unified Data-Free Compression: Pruning and Quantization without Fine-Tuning [**`PTQ`, `Quant`, `CNN`**] <br>
